@@ -1,0 +1,44 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    font-family:Arial;
+    color:white;
+}
+
+.player{
+    width:350px;
+    padding:30px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+    text-align:center;
+}
+
+#cover{
+    width:100%;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+#progress,
+#volume{
+    width:100%;
+    margin:15px 0;
+}
+
+.controls button{
+    margin:10px;
+    padding:15px;
+    border:none;
+    border-radius:50%;
+    cursor:pointer;
+    font-size:20px;
+}
+
+.time{
+    display:flex;
+    justify-content:space-between;
+}
